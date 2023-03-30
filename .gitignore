@@ -1,0 +1,6 @@
+*.log
+*venv
+logs/
+*pycache*
+*gcp_credentials.json*
+tmp*

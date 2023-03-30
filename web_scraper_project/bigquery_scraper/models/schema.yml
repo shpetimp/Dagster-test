@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+- name: allinone
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: allinone
+  - name: allinone_popup

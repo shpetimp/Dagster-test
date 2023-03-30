@@ -1,0 +1,14 @@
+bigquery_scraper:
+  outputs:
+    dev:
+      dataset: allinone
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: service-account
+      priority: interactive
+      project: dataquerytask
+      threads: 1
+      type: bigquery
+      keyfile: C:/web_scraper_project/web_scraper_project/gcp_credentials.json #absolute path
+  target: dev
